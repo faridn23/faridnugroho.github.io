@@ -1,5 +1,5 @@
 * {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -50,19 +50,19 @@ main {
 }
 
 .list-league {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .list-league h3 {
-  font-size: 30px;
+  font-size: 10px;
 }
 
 .list-league .card {
-  border-radius: 30px;
+  border-radius: 15px;
 }
 
 .list-league .card-image {
-  padding: 20px;
+  padding: 10px;
 }
 
 .list-league img {
@@ -93,7 +93,7 @@ main {
 .descriptions-league,
 .detail-team,
 .descriptions-team {
-  margin-left: 30px;
+  margin-left: 150px;
 }
 
 .image-offline {
@@ -152,5 +152,3 @@ main {
     margin-top: 54px;
   }
 }
-
-/*# sourceMappingURL=style.css.map */

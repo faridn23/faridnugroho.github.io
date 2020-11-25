@@ -6,15 +6,12 @@ function loadNav() {
     if (this.readyState === 4) {
       if (this.status !== 200) return;
 
-      // Muat daftar tautan menu
       document.querySelectorAll(".top-nav, .bot-nav").forEach(function (elm) {
         elm.innerHTML = xhttp.responseText;
       });
 
-      // Daftarkan event listener untuk setiap tautan menu
       document.querySelectorAll(".bot-nav, .top-nav").forEach(function (elm) {
         elm.addEventListener("click", function (event) {
-          // // Muat konten halaman yang dipanggil
           let page = event.target.getAttribute("href").substr(1);
           loadPage(page);
         });

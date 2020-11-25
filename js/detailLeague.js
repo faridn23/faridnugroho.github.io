@@ -39,9 +39,9 @@ function setCompetitionDataId(result) {
           <table class="centered">
             <thead>
               <tr>
-                <th>Position</th>
-                <th></th>
-                <th>Teams</th>
+                <th>No</th>
+                <th>Logo</th>
+                <th>Team</th>
                 <th>MD</th>
                 <th>W</th>
                 <th>D</th>

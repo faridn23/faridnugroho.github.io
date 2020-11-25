@@ -73,15 +73,15 @@ workbox.precaching.precacheAndRoute([{
     version: '1'
   },
   {
-    url: "/js/bolaku_db.js",
+    url: "/js/bolamania_db.js",
     version: '1'
   },
   {
-    url: "/js/idb/lib/idb.js",
+    url: "/js/idb.js",
     version: '1'
   },
   {
-    url: "/js/idb/lib/node.js",
+    url: "/js/node.js",
     version: '1'
   },
   {
@@ -101,7 +101,7 @@ workbox.precaching.precacheAndRoute([{
     version: '1'
   },
   {
-    url: "/js/cek_sw.js",
+    url: "/js/register.js",
     version: '1'
   },
   {
@@ -125,39 +125,39 @@ workbox.precaching.precacheAndRoute([{
     version: '1'
   },
   {
-    url: "/logo.png",
+    url: "/logo/logo.png",
     version: '1'
   },
   {
-    url: "/logo72.png",
+    url: "/logo/logo72.png",
     version: '1'
   },
   {
-    url: "/logo96.png",
+    url: "/logo/logo96.png",
     version: '1'
   },
   {
-    url: "/logo128.png",
+    url: "/logo/logo128.png",
     version: '1'
   },
   {
-    url: "/logo144.png",
+    url: "/logo/logo144.png",
     version: '1'
   },
   {
-    url: "/logo192.png",
+    url: "/logo/logo192.png",
     version: '1'
   },
   {
-    url: "/logo256.png",
+    url: "/logo/logo256.png",
     version: '1'
   },
   {
-    url: "/logo384.png",
+    url: "/logo/logo384.png",
     version: '1'
   },
   {
-    url: "/logo512.png",
+    url: "/logo/logo512.png",
     version: '1'
   },
   {
@@ -240,7 +240,7 @@ workbox.routing.registerRoute(new RegExp('/'),
   }) => {
     try {
       return await workbox.strategies.networkFirst({
-        cacheName: 'BolaKu',
+        cacheName: 'BolaMania',
         plugins: [
           new workbox.expiration.Plugin({
             maxEntries: 60,

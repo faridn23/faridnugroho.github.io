@@ -1,4 +1,4 @@
-let dbPromised = idb.open("BolaKu", 2, function (upgradeDb) {
+let dbPromised = idb.open("BolaMania", 2, function (upgradeDb) {
   let favTeams = upgradeDb.createObjectStore("favTeams", {
     keyPath: "id"
   });

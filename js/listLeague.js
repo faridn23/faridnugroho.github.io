@@ -12,12 +12,6 @@ function setCompetitionData(result) {
             <div class="card-image">
               <img src="../img/${data.id}.png" alt="${data.name}">
             </div>
-            <div class="card-content hide-on-small-only">
-              <hr>
-              <li>Start Date : ${data.currentSeason.startDate}</li>
-              <li>End Date : ${data.currentSeason.endDate}</li>
-              <li>Current Match Day : ${data.currentSeason.currentMatchday}</li>
-            </div>
           </a>
         </div>
       </div>
